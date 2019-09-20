@@ -30,7 +30,7 @@ Here is a test program (save it as `test.cpp`):
 
 Compile it with:
 
-    g++ test.cpp $(pkg-config --cflags --libs Qt5Core) -g
+    g++ test.cpp $(pkg-config --cflags --libs Qt5Core) -g -fPIC
 
 If everything goes well you should see the expanded data:
 
